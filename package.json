@@ -2,10 +2,30 @@
   "name": "eslint-config-fyndiq",
   "version": "0.0.1",
   "description": "ESLint config for Fyndiq projects",
-  "main": "eslint.json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "eslint.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint config",
+    "eslint-config",
+    "fyndiq"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb": "^14.1.0"
   },
-  "author": "",
-  "license": "MIT"
+  "peerDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
 }
