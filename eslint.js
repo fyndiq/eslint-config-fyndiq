@@ -28,5 +28,11 @@ module.exports = {
     'import/prefer-default-export': 0,
 
     'react/jsx-filename-extension': 0,
+
+    // Allow react-router's `to` prop on Link
+    'jsx-a11y/anchor-is-valid': ['error', {
+      specialLink: ['to'],
+    }],
+
   }
 }
