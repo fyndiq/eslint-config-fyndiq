@@ -3,7 +3,7 @@
   "version": "0.4.0-beta.1",
   "description": "ESLint config for Fyndiq projects",
   "repository": "fyndiq/eslint-config-fyndiq",
-  "main": "eslint.js",
+  "main": ".eslintrc.js",
   "keywords": [
     "eslint",
     "eslintconfig",
