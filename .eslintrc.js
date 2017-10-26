@@ -28,7 +28,6 @@ module.exports = {
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': 0,
-    'indent': ['error', 2, { 'SwitchCase': 1 }],
     'no-plusplus': 0,
     'radix': ['error', 'as-needed'],
 
