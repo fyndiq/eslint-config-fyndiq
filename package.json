@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fyndiq",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "ESLint config for Fyndiq projects",
   "repository": "fyndiq/eslint-config-fyndiq",
   "main": ".eslintrc.js",
