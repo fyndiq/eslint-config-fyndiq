@@ -1,5 +1,7 @@
 # eslint-config-fyndiq
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+
 An ESLint configuration for Fyndiq projects
 
 This configuration inherits [AirBnB's eslint configuration](//github.com/airbnb/javascript). To install it in one of your projects, do the following:
