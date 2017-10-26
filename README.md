@@ -6,7 +6,7 @@ This configuration inherits [AirBnB's eslint configuration](//github.com/airbnb/
 
 1. Install eslint
     ``` bash
-    npm i -D eslint babel-eslint eslint-config-fyndiq prettier
+    npm i -D eslint babel-eslint prettier eslint-config-fyndiq
     ```
 1. Install `eslint-import-resolver-webpack`: `npm i -D eslint-import-resolver-webpack`
 1. Create an `.eslintrc.js` config file using this template
@@ -25,10 +25,3 @@ This configuration inherits [AirBnB's eslint configuration](//github.com/airbnb/
       },
     }
     ```
-1. Create a `"prettier"` key in your `package.json` with the following values:
-    ``` json
-    {
-      "semi": false,
-      "singleQuote": true,
-      "trailingComma": "all"
-    }

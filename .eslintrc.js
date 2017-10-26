@@ -1,3 +1,5 @@
+const prettierConfig = require('./prettier.config')
+
 module.exports = {
   parser: 'babel-eslint',
   extends: [
@@ -38,6 +40,6 @@ module.exports = {
       specialLink: ['to'],
     }],
 
-    'prettier/prettier': 'error',
+    'prettier/prettier': ['error', prettierConfig],
   }
 }
