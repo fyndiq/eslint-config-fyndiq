@@ -1,12 +1,18 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: 'airbnb',
+  extends: [
+    'airbnb',
+    'prettier'
+  ],
   env: {
     browser: true,
     node: true,
     mocha: true,
     es6: true
   },
+  plugins: [
+    'prettier',
+  ],
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
@@ -17,12 +23,9 @@ module.exports = {
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': 0,
-    'comma-dangle': ['error', 'always-multiline'],
     'indent': ['error', 2, { 'SwitchCase': 1 }],
-    'max-len': 0,
     'no-plusplus': 0,
     'radix': ['error', 'as-needed'],
-    'semi': ['error', 'never'],
 
     'import/no-extraneous-dependencies': ['error', { 'devDependencies': true }],
     'import/prefer-default-export': 0,
@@ -34,5 +37,6 @@ module.exports = {
       specialLink: ['to'],
     }],
 
+    'prettier/prettier': 'error',
   }
 }
